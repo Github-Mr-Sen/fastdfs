@@ -1,0 +1,14 @@
+server:
+  port: 5200
+
+ip: 192.168.227.100
+
+fdfs:
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image:
+    width: 150
+    height: 150
+  tracker-list:
+    - ${ip}:22122
+  web-server-url: http://${ip}:8888/
